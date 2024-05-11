@@ -12,4 +12,10 @@ public class EmployeeController {
     public Employees getEmployees() {
         return employeeManager.getEmployees();
     }
+
+    // setter  
+    public void setEmployeeManager(EmployeeManager employeeManager) {
+        this.employeeManager = employeeManager;
+    }
+
 }
